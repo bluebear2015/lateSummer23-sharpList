@@ -35,6 +35,7 @@ public class HousesRepository
         if (rowsAffected > 1) throw new Exception("Too Much Happened");
         if (rowsAffected < 1) throw new Exception("Nothing Happened");
     }
+    //NOTE - this is a note
 
 
     internal List<House> getAllHouses()
